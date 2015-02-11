@@ -2,14 +2,14 @@ name = 'Zed A. Shaw'
 age = 35 # not a lie in 2009.
 height = 74 # inches.
 height_in_cm = height * 2.540
-weight = 180 # lbs.
+weight = 180.0 # lbs.
 eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
 
 puts "Let's talk about #{name}."
 puts "He's #{height} inches tall."
-puts "That means he's height_in_cm cm tall."
+puts "That means he's #{height_in_cm} cm tall."
 puts "He's #{weight} pounds heavy."
 puts "Actually that's not too heavy."
 puts "He's got #{eyes} eyes and #{hair} hair."
